@@ -19,6 +19,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/animation.css">
+    <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css"
         integrity="sha512-cn16Qw8mzTBKpu08X0fwhTSv02kK/FojjNLz0bwp2xJ4H+yalwzXKFw/5cLzuBZCxGWIA+95X4skzvo8STNtSg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -26,305 +27,56 @@
 </head>
 
 <body>
+    
     <header id="header" class="fixed-top">
-        <div class="d-flex align-items-center justify-content-between" style="height: 100%; padding-left: 25rem; padding-right: 25rem;">
+        <div class="parent-container">
+            <div class="chiled-container">
+                <a class="chiled-head-container" href="../index.html">
+                    <span class="nav-title">MADS SOLUTIONS</span>
+                </a>
 
-            <h1 class="logo"><a href="../index.html">MADS SOLUTIONS</a></h1>
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-            <nav id="navbar" class="navbar">
-                <ul>
-                    <li><a class="nav-link " href="../index.html">Home</a></li>
-                    <li><a class="nav-link " href="about-us.html">About Us</a></li>
-                    <li><a class="nav-link active" href="services.html">Services</a></li>
-                    <li><a class="nav-link " href="weArehiring.html">We Are Hiring</a></li>
-                    <li><a class="nav-link " href="contactus.html">Contact Us</a></li>
-                </ul>
-                <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav><!-- .navbar -->
+                <a href="javascript:void(0)" class="icon">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <div class="topnav" id="myTopnav">
+                <a href="../index.html" class="scrollto">
+                    <h4 class="h4-title mg-right">
+                        HOME
+                    </h4>
+                </a>
+                <a href="about-us.html" class="scrollto">
+                    <h4 class="h4-title mg-right">
+                        ABOUT US
+                    </h4>
+                </a>
 
+                <a href="services.html" class="scrollto">
+                    <h4 class="h4-title mg-right">
+                        SERVICES
+                    </h4>
+                </a>
+
+                <a href="weArehiring.html" class="scrollto">
+                    <h4 class="h4-title mg-right">
+                        WE ARE HIRING
+                    </h4>
+                </a>
+
+                <a href="contactus.html" class="scrollto">
+                    <h4 class="h4-title">
+                        CONTACT US
+                    </h4>
+                </a>
+            </div>
         </div>
+
     </header>
 
     <main id="main">
         <div class="services-page">
             <h1 class="h1-title animate__animated animate__fadeInDown">services</h1>
         </div>
-        <div class="process">
-            <h1 class="h1-title animate__animated animate__fadeInDown">Our Process</h1>
-            <p style="color: white;">Understanding our client's priorities, goals and constraints help Mads tech
-                Solutions drive client success</p>
-
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                    <li data-target="#myCarousel" data-slide-to="3"></li>
-                    <li data-target="#myCarousel" data-slide-to="4"></li>
-                    <li data-target="#myCarousel" data-slide-to="5"></li>
-                    <li data-target="#myCarousel" data-slide-to="6"></li>
-                    <li data-target="#myCarousel" data-slide-to="7"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <h3 class="h3-title animate__animated animate__fadeInDown">Engage with the RIGHT PEOPLE</h3>
-                        <div class="pad-bottom-5rem">
-                            <p class="p-content animate__animated animate__fadeInUp">MADS Solutions success with our
-                                clients starts with ensuring we bring the right
-                                people to the table, allowing us to understand our client's needs more deeply. A Mads
-                                tech
-                                Solutions engagement team includes experienced counterparts to key client personnel, who
-                                speak the same language, understand technical, operational, and administrative pains,
-                                and
-                                are best equipped to apply Mads tech Solutions strengths to client needs.</p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <h3 class="h3-title animate__animated animate__fadeInDown">Collaboratively define the SCOPE OF
-                            SERVICES</h3>
-                        <div class="pad-bottom-5rem">
-                            <p class="p-content animate__animated animate__fadeInUp">Mads tech Solutions is a
-                                technology-neutral consulting firm with over 15 years of experience
-                                across a huge range of technology services. As such, Mads tech Solutions approaches
-                                client
-                                engagements without the limitation of a menu of software products or cookie-cutter
-                                services.
-                                Once Mads tech Solutions 's engagement team understands our client's needs, we work
-                                collaboratively with client leadership to define how Mads tech Solutions 's experience,
-                                capabilities, and areas of specialization can best be applied to client priorities and
-                                goals
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <h3 class="h3-title animate__animated animate__fadeInDown">Select the best suited MADS TECH
-                            SOLUTIONS APPROACH</h3>
-                        <div class="pad-bottom-5rem">
-                            <p class="p-content animate__animated animate__fadeInUp">Mads tech Solutions brings proven
-                                methodologies to our client engagements, each of which has
-                                been optimized for the delivery of specific project types. Once the scope of Mads tech
-                                Solutions 's services is known, the client's requirements will drive which of Mads tech
-                                Solutions 's proven delivery methodologies will be applied to the job. Mads tech
-                                Solutions
-                                has numerous, tried-and-true project methods, based on industry standards and best
-                                practices, including Mads tech Solutions 's:</p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <h3 class="h3-title animate__animated animate__fadeInDown">Ensure a COMMON UNDERSTANDING of all
-                            delivery details</h3>
-                        <div class="pad-bottom-5rem">
-                            <p class="p-content animate__animated animate__fadeInUp">Mads tech Solutions 's delivery
-                                methodologies all include structured phases, standard
-                                deliverables, and measurable outcomes, but are also specifically geared to be molded to
-                                align with client expectations. Key pre-initiation activities help assure project
-                                success.
-                                These include developing a common understanding of Mads tech Solutions /client roles and
-                                responsibilities, defining the level of client participation across the delivery
-                                lifecycle,
-                                and building a timeline for the project that is aligned with the client's vision for the
-                                engagement. This baseline of delivery detail is built into a project charter that serves
-                                as
-                                the foundation of project delivery and enables the development of measurable success
-                                indicators.</p>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <h3 class="h3-title animate__animated animate__fadeInDown">Assure CLIENT CONFIDENCE with ongoing
-                            communications</h3>
-                        <div class="pad-bottom-5rem">
-                            <p class="p-content animate__animated animate__fadeInUp">Mads tech Solutions moves directly
-                                from pre-initiation activities into the formal delivery
-                                process, with a project kick-off procedure that formalizes the charter, adds further
-                                depth
-                                to the schedule and plan, and continues to engage client personnel with the right Mads
-                                tech
-                                Solutions delivery counterparts. In addition to other critical aspects of project
-                                delivery,
-                                the project charter also includes a communications plan to ensure the client has proper
-                                visibility at all levels throughout the engagement.</p>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="pad-bottom-5rem">
-                            <h3 class="h3-title animate__animated animate__fadeInDown">Implement a program of CONTINUOUS
-                                IMPROVEMENT</h3>
-                            <p class="p-content">Mads tech Solutions approaches every engagement with two goals in mind:
-                            </p>
-                            <p class="p-content">Work with clients closely, collaboratively, and with the right people
-                                to establish a sense of trust and respect</p>
-                            <p class="p-content">Deliver quality outcomes that are aligned with the client's priorities,
-                                setting the client up for success</p>
-                            <p class="p-content">These goals can only be partially achieved during delivery, however.
-                                The final step in achieving Mads tech Solutions 's engagement goals is to help our
-                                clients establish a sustainable outlook for continuous improvement so that client
-                                success can be measured, not just in terms of a single scope of delivery, but in years
-                                of benefit and return on investment.</p>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="pad-bottom-5rem">
-                            <h3 class="h3-title animate__animated animate__fadeInDown">Our Executive Team</h3>
-                            <p class="p-content">MOur leadership team is made up of dedicated, focused, and
-                                experienced executives
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="pad-bottom-5rem">
-                            <h3 class="h3-title animate__animated animate__fadeInDown">Thinking</h3>
-                                    <p class="p-content">Mads tech Solutions envisions, designs, and engineers'
-                                        solutions to transform our clients' information systems, streamline their
-                                        business processes, and improve operational efficiencies. Our success relies on
-                                        our dedicated employees, who truly partner with our customers and connect deeply
-                                        to understand their current and long-term needs.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div>
-        <div class="testimonial">
-            <h1 class="h1-title animate__animated animate__fadeInDown">testimonials</h1>
-
-            <div id="myCarouseltest" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarouseltest" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarouseltest" data-slide-to="1"></li>
-                    <li data-target="#myCarouseltest" data-slide-to="2"></li>
-                    <li data-target="#myCarouseltest" data-slide-to="3"></li>
-                    <li data-target="#myCarouseltest" data-slide-to="4"></li>
-                    <li data-target="#myCarouseltest" data-slide-to="5"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <div class="pad-bottom-5rem">
-                            <h2 class="h2-title" style="text-align: start;padding-left: 25rem;">SMA</h2>
-                            <h6 style="color: aliceblue; text-align: start;padding-left: 25rem; padding-bottom: 3rem;">
-                                CEO & Manager</h6>
-                            <p class="p-content animate__animated animate__fadeInUp">MADS Solutions success with our
-                                clients starts with ensuring we bring the right
-                                people to the table, allowing us to understand our client's needs more deeply. A Mads
-                                tech
-                                Solutions engagement team includes experienced counterparts to key client personnel, who
-                                speak the same language, understand technical, operational, and administrative pains,
-                                and
-                                are best equipped to apply Mads tech Solutions strengths to client needs.</p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="pad-bottom-5rem">
-                            <h2 class="h2-title" style="text-align: start;padding-left: 25rem;">SMA</h2>
-                            <h6 style="color: aliceblue; text-align: start;padding-left: 25rem; padding-bottom: 3rem;">
-                                CEO & Manager</h6>
-                            <p class="p-content animate__animated animate__fadeInUp">MADS Solutions success with our
-                                clients starts with ensuring we bring the right
-                                people to the table, allowing us to understand our client's needs more deeply. A Mads
-                                tech
-                                Solutions engagement team includes experienced counterparts to key client personnel, who
-                                speak the same language, understand technical, operational, and administrative pains,
-                                and
-                                are best equipped to apply Mads tech Solutions strengths to client needs.</p>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="pad-bottom-5rem">
-                            <h2 class="h2-title" style="text-align: start;padding-left: 25rem;">SMA</h2>
-                            <h6 style="color: aliceblue; text-align: start;padding-left: 25rem; padding-bottom: 3rem;">
-                                CEO & Manager</h6>
-                            <p class="p-content animate__animated animate__fadeInUp">MADS Solutions success with our
-                                clients starts with ensuring we bring the right
-                                people to the table, allowing us to understand our client's needs more deeply. A Mads
-                                tech
-                                Solutions engagement team includes experienced counterparts to key client personnel, who
-                                speak the same language, understand technical, operational, and administrative pains,
-                                and
-                                are best equipped to apply Mads tech Solutions strengths to client needs.</p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="pad-bottom-5rem">
-                            <h2 class="h2-title" style="text-align: start;padding-left: 25rem;">SMA</h2>
-                            <h6 style="color: aliceblue; text-align: start;padding-left: 25rem; padding-bottom: 3rem;">
-                                CEO & Manager</h6>
-                            <p class="p-content animate__animated animate__fadeInUp">MADS Solutions success with our
-                                clients starts with ensuring we bring the right
-                                people to the table, allowing us to understand our client's needs more deeply. A Mads
-                                tech
-                                Solutions engagement team includes experienced counterparts to key client personnel, who
-                                speak the same language, understand technical, operational, and administrative pains,
-                                and
-                                are best equipped to apply Mads tech Solutions strengths to client needs.</p>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="pad-bottom-5rem">
-                            <h2 class="h2-title" style="text-align: start;padding-left: 25rem;">SMA</h2>
-                            <h6 style="color: aliceblue; text-align: start;padding-left: 25rem; padding-bottom: 3rem;">
-                                CEO & Manager</h6>
-                            <p class="p-content animate__animated animate__fadeInUp">MADS Solutions success with our
-                                clients starts with ensuring we bring the right
-                                people to the table, allowing us to understand our client's needs more deeply. A Mads
-                                tech
-                                Solutions engagement team includes experienced counterparts to key client personnel, who
-                                speak the same language, understand technical, operational, and administrative pains,
-                                and
-                                are best equipped to apply Mads tech Solutions strengths to client needs.</p>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="pad-bottom-5rem">
-                            <h2 class="h2-title" style="text-align: start;padding-left: 25rem;">SMA</h2>
-                            <h6 style="color: aliceblue; text-align: start;padding-left: 25rem; padding-bottom: 3rem;">
-                                CEO & Manager</h6>
-                            <p class="p-content animate__animated animate__fadeInUp">MADS Solutions success with our
-                                clients starts with ensuring we bring the right
-                                people to the table, allowing us to understand our client's needs more deeply. A Mads
-                                tech
-                                Solutions engagement team includes experienced counterparts to key client personnel, who
-                                speak the same language, understand technical, operational, and administrative pains,
-                                and
-                                are best equipped to apply Mads tech Solutions strengths to client needs.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#myCarouseltest" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarouseltest" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div>
-
     </main>
     <footer id="footer">
         <div class="footer-container">
