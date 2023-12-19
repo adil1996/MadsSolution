@@ -93,7 +93,7 @@ a{
 }
 
 .process {
-    background-image: url('../assets/image/p5.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../assets/image/p5.jpg');
     background-size: 100% 75vh;
     display: flex;
     align-items: center;
@@ -131,7 +131,7 @@ a{
 }
 
 .testimonial {
-    background-image: url('../assets/image/image1.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, -0.7), rgba(0, 0, 0, 0.7)),url('../assets/image/image1.jpeg');
     padding-top: 3rem;
     display: flex;
     align-items: center;
