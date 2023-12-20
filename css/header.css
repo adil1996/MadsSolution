@@ -79,6 +79,7 @@ a {
     padding-left: 1rem;
     text-decoration: none;
     font-size: 17px;
+    cursor: pointer !important;
 }
 
 @media screen and (max-width: 700px) {
@@ -113,7 +114,12 @@ a {
         border-bottom: 1px solid lightgray;
     }
     .parent-container {
-        display: block;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .icon {
