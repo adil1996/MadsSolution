@@ -28,7 +28,8 @@
     background: rgba(0, 0, 0, 0.75);
     transition: all 0.5s;
     z-index: 997;
-    height: 100px !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 
 }
 
@@ -49,7 +50,7 @@ a {
 }
 
 .h4-title {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 
 .mg-right {
@@ -59,7 +60,7 @@ a {
 .icon {
     display: none;
     font-size: 20px;
-    color: darkorange;
+    color: white;
 }
 
 .topnav {
