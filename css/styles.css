@@ -229,6 +229,20 @@ a{
         padding: 5rem 10px;
     }
 
+    .p-content{
+        font-size: 1.1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .h1-title{
+        font-size: 3rem;
+    }
+
+    .h2-title{
+        font-size: 2rem;
+    }
+
   }
   .container{
     --bs-gutter-x: 1.5rem !important;
