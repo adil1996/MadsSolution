@@ -253,6 +253,11 @@ a{
         flex-direction: column;
     }
 
+    .consult-conatainer{
+        margin-left: 1rem !important;
+        margin-right: 1rem !important;
+    }
+
   }
   .container{
     --bs-gutter-x: 1.5rem !important;
@@ -496,7 +501,7 @@ a{
 .accomp-conatainer{
     text-align: center;
     height: 200px;
-    width: 500px;
+    width: 400px;
     border-radius: 20px;
     box-shadow: 0 0 50px 5px white;
 }
@@ -536,4 +541,22 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* service*/
+
+.service_consulting{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../assets/image/image2.jpeg');
+    background-size: 100% 75vh;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.consult-conatainer{
+    text-align: left;
+    padding: 5rem;
+    border-radius: 20px;
+    box-shadow: 0 0 50px 5px white;
+    margin-left: 30rem;
+    margin-right: 30rem;
 }

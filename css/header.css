@@ -83,6 +83,13 @@ a {
     cursor: pointer !important;
 }
 
+.topnav a:hover{
+    color: yellowgreen;
+}
+
+.topnav a:active{
+    color: blue !important;
+}
 @media screen and (max-width: 1000px) {
 
     .nav-title{
@@ -136,7 +143,7 @@ a {
         float: right;
         position: absolute;
         right: 1rem;
-        color: 'red';
+        text-decoration: none !important;
     }
 
     .chiled-container {
