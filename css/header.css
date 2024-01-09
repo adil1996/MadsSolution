@@ -85,6 +85,14 @@ a {
 
 @media screen and (max-width: 1000px) {
 
+    .nav-title{
+        font-size: 2rem !important;
+    }
+
+    .logo{
+        width: 30px !important;
+    }
+
     .mg-right {
         margin-right: 0;
     }
