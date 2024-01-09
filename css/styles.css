@@ -220,7 +220,16 @@ a{
   .footer-links ul a:hover {
     color: #81d33d;
   }
+  @media screen and (max-width: 1000px) {
+    .footer-container{
+        background: #1d1d1d;
+        border-bottom: 1px solid #2f2f2f;
+        display: flex;
+        flex-direction: column;
+        padding: 5rem 10px;
+    }
 
+  }
   .container{
     --bs-gutter-x: 1.5rem !important;
     --bs-gutter-y: 0 !important;
